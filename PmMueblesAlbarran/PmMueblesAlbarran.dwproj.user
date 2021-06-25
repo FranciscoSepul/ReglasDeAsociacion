@@ -1,0 +1,29 @@
+<AnalysisServicesUserConfiguration xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:ddl2="http://schemas.microsoft.com/analysisservices/2003/engine/2" xmlns:ddl2_2="http://schemas.microsoft.com/analysisservices/2003/engine/2/2" xmlns:ddl100_100="http://schemas.microsoft.com/analysisservices/2008/engine/100/100" xmlns:ddl200="http://schemas.microsoft.com/analysisservices/2010/engine/200" xmlns:ddl200_200="http://schemas.microsoft.com/analysisservices/2010/engine/200/200" xmlns:ddl300="http://schemas.microsoft.com/analysisservices/2011/engine/300" xmlns:ddl300_300="http://schemas.microsoft.com/analysisservices/2011/engine/300/300" xmlns:ddl400="http://schemas.microsoft.com/analysisservices/2012/engine/400" xmlns:ddl400_400="http://schemas.microsoft.com/analysisservices/2012/engine/400/400" xmlns:ddl500="http://schemas.microsoft.com/analysisservices/2013/engine/500" xmlns:ddl500_500="http://schemas.microsoft.com/analysisservices/2013/engine/500/500" xmlns:dwd="http://schemas.microsoft.com/DataWarehouse/Designer/1.0">
+  <Configurations>
+    <Configuration>
+      <Name>Development</Name>
+      <Options>
+        <UserIDs>
+          <ConfigurationSetting>
+            <Id>Albarran</Id>
+            <Name>Albarran</Name>
+            <Value xsi:type="xsd:string">AQAAANCMnd8BFdERjHoAwE/Cl+sBAAAA0qrHxCQIKE++rg6oJp3cRQAAAAASAAAAQQBsAGIAYQByAHIAYQBuAAAAEGYAAAABAAAgAAAAlXUJuaTWrSqsG3X40g9shzAj88XKhdKTyZJHoA1a7CAAAAAADoAAAAACAAAgAAAAXHRYZMa0sjSoyJgU/HCsHUcOk65+aoB2IDhW9vN4NkYQAAAARmSxa6NUT7l2g5AthY84dkAAAAD3nAVLVuJ/BCHsImCuXOfWp++SK4+8WpWvHeMYYY1u+OCy3sde1Ji7kUh1vEi8L2isq3Vdbd+qr9D6URWG19xi</Value>
+          </ConfigurationSetting>
+        </UserIDs>
+        <UserPasswords>
+          <ConfigurationSetting>
+            <Id>Albarran</Id>
+            <Name>Albarran</Name>
+            <Value xsi:type="xsd:string">AQAAANCMnd8BFdERjHoAwE/Cl+sBAAAA0qrHxCQIKE++rg6oJp3cRQAAAAASAAAAQQBsAGIAYQByAHIAYQBuAAAAEGYAAAABAAAgAAAAjD7zRSHZn1sphWkUTeHqxgvsRpAceAnFtPv066tWnYcAAAAADoAAAAACAAAgAAAAf9wopgrmoaqdxfBXQJiSS2z/ipenAnO19/Z+QORhvQogAAAAAh7wIxl/v6IISV6NiU5RgXNuM3CwgKgNZFRflJLKClpAAAAAni1MajKPP8pok4haeQQE1itcUs+vaqhz13kdfYAXcZNze2drpn5DICNR5TNlULVli6p13Dy3XTG5GO8VVnjs1g==</Value>
+          </ConfigurationSetting>
+        </UserPasswords>
+        <TargetServer>DESKTOP-HJ1JHFD\MSSQLSERVER01</TargetServer>
+        <TargetDatabase>Albarran</TargetDatabase>
+        <StartObject>
+          <ObjectId></ObjectId>
+          <ObjectType>Current</ObjectType>
+        </StartObject>
+      </Options>
+    </Configuration>
+  </Configurations>
+</AnalysisServicesUserConfiguration>

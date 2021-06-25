@@ -1,0 +1,293 @@
+﻿<MiningStructure xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:ddl2="http://schemas.microsoft.com/analysisservices/2003/engine/2" xmlns:ddl2_2="http://schemas.microsoft.com/analysisservices/2003/engine/2/2" xmlns:ddl100_100="http://schemas.microsoft.com/analysisservices/2008/engine/100/100" xmlns:ddl200="http://schemas.microsoft.com/analysisservices/2010/engine/200" xmlns:ddl200_200="http://schemas.microsoft.com/analysisservices/2010/engine/200/200" xmlns:ddl300="http://schemas.microsoft.com/analysisservices/2011/engine/300" xmlns:ddl300_300="http://schemas.microsoft.com/analysisservices/2011/engine/300/300" xmlns:ddl400="http://schemas.microsoft.com/analysisservices/2012/engine/400" xmlns:ddl400_400="http://schemas.microsoft.com/analysisservices/2012/engine/400/400" xmlns:ddl500="http://schemas.microsoft.com/analysisservices/2013/engine/500" xmlns:ddl500_500="http://schemas.microsoft.com/analysisservices/2013/engine/500/500" xmlns:dwd="http://schemas.microsoft.com/DataWarehouse/Designer/1.0" dwd:design-time-name="0c49e3ff-736d-44fa-803e-70fc77dfecb3" xmlns="http://schemas.microsoft.com/analysisservices/2003/engine">
+  <ID>Clientes Rack TV</ID>
+  <Name>Clientes Rack TV</Name>
+  <CreatedTimestamp>0001-01-01T00:00:00Z</CreatedTimestamp>
+  <LastSchemaUpdate>0001-01-01T00:00:00Z</LastSchemaUpdate>
+  <Annotations>
+    <Annotation>
+      <Name>http://schemas.microsoft.com/DataWarehouse/Designer/1.0:CaseTableName</Name>
+      <Value>dbo_ClientesRackTV</Value>
+    </Annotation>
+    <Annotation>
+      <Name>http://schemas.microsoft.com/DataWarehouse/Designer/1.0:ShowFriendlyNames</Name>
+      <Value>true</Value>
+    </Annotation>
+    <Annotation>
+      <Name>http://schemas.microsoft.com/DataWarehouse/Designer/1.0:DiagramLayout</Name>
+      <Value>
+        <dds xmlns="">
+          <diagram fontclsid="{0BE35203-8F91-11CE-9DE3-00AA004BB851}" mouseiconclsid="{0BE35204-8F91-11CE-9DE3-00AA004BB851}" defaultlayout="MSDDS.Rectilinear" defaultlineroute="MSDDS.Rectilinear" version="7" nextobject="2" scale="100" pagebreakanchorx="0" pagebreakanchory="0" pagebreaksizex="0" pagebreaksizey="0" scrollleft="-14003" scrolltop="-8136" gridx="150" gridy="150" marginx="5000" marginy="5000" zoom="100" x="32306" y="21273" backcolor="2434342" defaultpersistence="2" PrintPageNumbersMode="3" PrintMarginTop="0" PrintMarginBottom="635" PrintMarginLeft="0" PrintMarginRight="0" marqueeselectionmode="0" mousepointer="0" snaptogrid="0" autotypeannotation="1" showscrollbars="0" viewpagebreaks="0" donotforceconnectorsbehindshapes="1" backpictureclsid="{00000000-0000-0000-0000-000000000000}">
+            <font>
+              <ddsxmlobjectstreamwrapper binary="01000000900144420100065461686f6d61" />
+            </font>
+            <mouseicon>
+              <ddsxmlobjectstreamwrapper binary="6c74000000000000" />
+            </mouseicon>
+          </diagram>
+          <layoutmanager>
+            <ddsxmlobj />
+          </layoutmanager>
+          <ddscontrol controlprogid="DdsShapes.DdsObjectManagedBridge" tooltip="ClientesRackTV" left="20" top="0" logicalid="1" controlid="1" masterid="0" hint1="0" hint2="0" width="4471" height="6693" noresize="0" nomove="0" nodefaultattachpoints="0" autodrag="1" usedefaultiddshape="1" selectable="1" showselectionhandles="1" allownudging="1" isannotation="0" dontautolayout="0" groupcollapsed="0" tabstop="1" visible="1" snaptogrid="0">
+            <control>
+              <ddsxmlobjectstreaminitwrapper binary="000e000077110000251a0000" />
+            </control>
+            <layoutobject>
+              <ddsxmlobj>
+                <property name="LogicalObject" value="dbo_ClientesRackTV" vartype="8" />
+              </ddsxmlobj>
+            </layoutobject>
+            <shape groupshapeid="0" groupnode="0" />
+          </ddscontrol>
+        </dds>
+      </Value>
+    </Annotation>
+    <Annotation>
+      <Name>http://schemas.microsoft.com/DataWarehouse/Designer/1.0:ShowRelationshipNames</Name>
+      <Value>false</Value>
+    </Annotation>
+    <Annotation>
+      <Name>http://schemas.microsoft.com/DataWarehouse/Designer/1.0:UseDiagramDefaultLayout</Name>
+      <Value>true</Value>
+    </Annotation>
+    <Annotation>
+      <Name>http://schemas.microsoft.com/DataWarehouse/Designer/1.0:DiagramViewPortLeft</Name>
+      <Value>-14003</Value>
+    </Annotation>
+    <Annotation>
+      <Name>http://schemas.microsoft.com/DataWarehouse/Designer/1.0:DiagramViewPortTop</Name>
+      <Value>-8136</Value>
+    </Annotation>
+    <Annotation>
+      <Name>http://schemas.microsoft.com/DataWarehouse/Designer/1.0:DiagramBoundingLeft</Name>
+      <Value>20</Value>
+    </Annotation>
+    <Annotation>
+      <Name>http://schemas.microsoft.com/DataWarehouse/Designer/1.0:DiagramBoundingTop</Name>
+      <Value>0</Value>
+    </Annotation>
+    <Annotation>
+      <Name>http://schemas.microsoft.com/DataWarehouse/Designer/1.0:DiagramZoom</Name>
+      <Value>100</Value>
+    </Annotation>
+  </Annotations>
+  <LastProcessed>0001-01-01T00:00:00Z</LastProcessed>
+  <State>Unprocessed</State>
+  <Source xsi:type="DataSourceViewBinding" dwd:design-time-name="0690d92d-3183-4ba2-b3e6-abfa8ebc25de">
+    <DataSourceViewID>Albarran</DataSourceViewID>
+  </Source>
+  <Columns>
+    <Column xsi:type="ScalarMiningStructureColumn" dwd:design-time-name="4e75d347-6155-457b-9f53-eaae0b385bcd">
+      <ID>APELLIDO</ID>
+      <Name>APELLIDO</Name>
+      <Type>Text</Type>
+      <Content>Discrete</Content>
+      <KeyColumns>
+        <KeyColumn dwd:design-time-name="b584de11-62be-43c9-8c3e-b6bc25346c11">
+          <DataType>WChar</DataType>
+          <DataSize>255</DataSize>
+          <Source xsi:type="ColumnBinding" dwd:design-time-name="09ca10fd-950b-483e-9316-3c4b760fa393">
+            <TableID>dbo_ClientesRackTV</TableID>
+            <ColumnID>APELLIDO</ColumnID>
+          </Source>
+        </KeyColumn>
+      </KeyColumns>
+    </Column>
+    <Column xsi:type="ScalarMiningStructureColumn" dwd:design-time-name="9eef6b27-f6c7-40e9-9197-64eec6834d8c">
+      <ID>CANTIDAD DE HIJOS</ID>
+      <Name>CANTIDAD DE HIJOS</Name>
+      <Type>Long</Type>
+      <Content>Discrete</Content>
+      <KeyColumns>
+        <KeyColumn dwd:design-time-name="d01ad3e7-777b-4b2f-a25e-136123a078d8">
+          <DataType>SmallInt</DataType>
+          <DataSize>-1</DataSize>
+          <Source xsi:type="ColumnBinding" dwd:design-time-name="85caba22-0820-4c10-a0ee-34375c7fa4e8">
+            <TableID>dbo_ClientesRackTV</TableID>
+            <ColumnID>CANTIDAD_x0020_DE_x0020_HIJOS</ColumnID>
+          </Source>
+        </KeyColumn>
+      </KeyColumns>
+    </Column>
+    <Column xsi:type="ScalarMiningStructureColumn" dwd:design-time-name="62008457-4705-46d5-9a93-2aebc0655a51">
+      <ID>COMPRA RACK</ID>
+      <Name>COMPRA RACK</Name>
+      <Type>Text</Type>
+      <Content>Discrete</Content>
+      <KeyColumns>
+        <KeyColumn dwd:design-time-name="073ad1ba-46f8-4e29-a94e-bbf25d7673c2">
+          <DataType>WChar</DataType>
+          <DataSize>255</DataSize>
+          <Source xsi:type="ColumnBinding" dwd:design-time-name="5e0ed5ed-16b1-4a16-b184-8193f881d0c4">
+            <TableID>dbo_ClientesRackTV</TableID>
+            <ColumnID>COMPRA_x0020_RACK</ColumnID>
+          </Source>
+        </KeyColumn>
+      </KeyColumns>
+    </Column>
+    <Column xsi:type="ScalarMiningStructureColumn" dwd:design-time-name="c671677a-2ba5-4f2b-b162-ea06261f2f39">
+      <ID>EDAD</ID>
+      <Name>EDAD</Name>
+      <Type>Long</Type>
+      <Content>Discrete</Content>
+      <KeyColumns>
+        <KeyColumn dwd:design-time-name="ce765b37-6cf0-4b31-ac6d-cdea45bc649e">
+          <DataType>SmallInt</DataType>
+          <DataSize>-1</DataSize>
+          <Source xsi:type="ColumnBinding" dwd:design-time-name="1ea23606-b6ba-4467-a622-4bea7e3752f1">
+            <TableID>dbo_ClientesRackTV</TableID>
+            <ColumnID>EDAD</ColumnID>
+          </Source>
+        </KeyColumn>
+      </KeyColumns>
+    </Column>
+    <Column xsi:type="ScalarMiningStructureColumn" dwd:design-time-name="832ad158-d9cc-486e-b7cf-48d68c2e351c">
+      <ID>ESTADO CIVIL</ID>
+      <Name>ESTADO CIVIL</Name>
+      <Type>Text</Type>
+      <Content>Discrete</Content>
+      <KeyColumns>
+        <KeyColumn dwd:design-time-name="e2c1404f-30fb-4bd0-b9e8-474711cd546f">
+          <DataType>WChar</DataType>
+          <DataSize>255</DataSize>
+          <Source xsi:type="ColumnBinding" dwd:design-time-name="41917a9d-8963-4636-b9f3-80bb8ffecd56">
+            <TableID>dbo_ClientesRackTV</TableID>
+            <ColumnID>ESTADO_x0020_CIVIL</ColumnID>
+          </Source>
+        </KeyColumn>
+      </KeyColumns>
+    </Column>
+    <Column xsi:type="ScalarMiningStructureColumn" dwd:design-time-name="67bde035-995c-43a8-85ba-f2c2e65ed796">
+      <ID>FIDELIDAD</ID>
+      <Name>FIDELIDAD</Name>
+      <Type>Text</Type>
+      <Content>Discrete</Content>
+      <KeyColumns>
+        <KeyColumn dwd:design-time-name="76ffcbc0-b943-465b-b31d-b2153e22775b">
+          <DataType>WChar</DataType>
+          <DataSize>255</DataSize>
+          <Source xsi:type="ColumnBinding" dwd:design-time-name="573cd710-8e6c-4c6d-9d91-a4043131ac1e">
+            <TableID>dbo_ClientesRackTV</TableID>
+            <ColumnID>FIDELIDAD</ColumnID>
+          </Source>
+        </KeyColumn>
+      </KeyColumns>
+    </Column>
+    <Column xsi:type="ScalarMiningStructureColumn" dwd:design-time-name="6a44daa2-66ca-4939-ac6b-2df6731a409c">
+      <ID>ID CLIENTE</ID>
+      <Name>ID CLIENTE</Name>
+      <IsKey>true</IsKey>
+      <Type>Text</Type>
+      <Content>Key</Content>
+      <KeyColumns>
+        <KeyColumn dwd:design-time-name="9bd7cbd7-1ae5-4a15-be66-445b6a49c449">
+          <DataType>WChar</DataType>
+          <DataSize>255</DataSize>
+          <Source xsi:type="ColumnBinding" dwd:design-time-name="87154968-93cd-46ab-95c0-d59219981d89">
+            <TableID>dbo_ClientesRackTV</TableID>
+            <ColumnID>ID_CLIENTE</ColumnID>
+          </Source>
+        </KeyColumn>
+      </KeyColumns>
+    </Column>
+    <Column xsi:type="ScalarMiningStructureColumn" dwd:design-time-name="826efc96-5c63-450b-89ad-c67f84f667cb">
+      <ID>LUGAR ORIGEN</ID>
+      <Name>LUGAR ORIGEN</Name>
+      <Type>Text</Type>
+      <Content>Discrete</Content>
+      <KeyColumns>
+        <KeyColumn dwd:design-time-name="271e4cc4-8697-402f-b2b9-0c5737df5229">
+          <DataType>WChar</DataType>
+          <DataSize>255</DataSize>
+          <Source xsi:type="ColumnBinding" dwd:design-time-name="15b4713b-ecc6-4fd4-9d8a-68247543a252">
+            <TableID>dbo_ClientesRackTV</TableID>
+            <ColumnID>LUGAR_x0020_ORIGEN</ColumnID>
+          </Source>
+        </KeyColumn>
+      </KeyColumns>
+    </Column>
+    <Column xsi:type="ScalarMiningStructureColumn" dwd:design-time-name="90cb8c61-da98-49a5-9c80-42de0e2cc67c">
+      <ID>PREFERENCIA COLOR</ID>
+      <Name>PREFERENCIA COLOR</Name>
+      <Type>Text</Type>
+      <Content>Discrete</Content>
+      <KeyColumns>
+        <KeyColumn dwd:design-time-name="56996c08-f274-43c6-aa42-b85737e849d9">
+          <DataType>WChar</DataType>
+          <DataSize>255</DataSize>
+          <Source xsi:type="ColumnBinding" dwd:design-time-name="4e4f301a-a49b-47d0-9779-6231bdb21e04">
+            <TableID>dbo_ClientesRackTV</TableID>
+            <ColumnID>PREFERENCIA_x0020_COLOR</ColumnID>
+          </Source>
+        </KeyColumn>
+      </KeyColumns>
+    </Column>
+    <Column xsi:type="ScalarMiningStructureColumn" dwd:design-time-name="60006828-bac4-47ce-997a-0e080784fdac">
+      <ID>TIPO DE COMIDA</ID>
+      <Name>TIPO DE COMIDA</Name>
+      <Type>Text</Type>
+      <Content>Discrete</Content>
+      <KeyColumns>
+        <KeyColumn dwd:design-time-name="bbae6728-37b5-4903-adeb-cf494583c41e">
+          <DataType>WChar</DataType>
+          <DataSize>255</DataSize>
+          <Source xsi:type="ColumnBinding" dwd:design-time-name="7015fd37-2200-4de9-9d03-9d1cc6d4eea7">
+            <TableID>dbo_ClientesRackTV</TableID>
+            <ColumnID>TIPO_x0020_DE_x0020_COMIDA</ColumnID>
+          </Source>
+        </KeyColumn>
+      </KeyColumns>
+    </Column>
+  </Columns>
+  <MiningModels>
+    <MiningModel dwd:design-time-name="916976c1-02b4-4e1a-8aaf-7b52011babec">
+      <ID>Clientes Rack TV</ID>
+      <Name>Clientes Rack TV</Name>
+      <CreatedTimestamp>0001-01-01T00:00:00Z</CreatedTimestamp>
+      <LastSchemaUpdate>0001-01-01T00:00:00Z</LastSchemaUpdate>
+      <LastProcessed>0001-01-01T00:00:00Z</LastProcessed>
+      <State>Unprocessed</State>
+      <Algorithm>Microsoft_Association_Rules</Algorithm>
+      <Columns>
+        <Column dwd:design-time-name="def462a9-a48c-4e8d-ba5c-791722006374">
+          <ID>APELLIDO</ID>
+          <Name>APELLIDO</Name>
+          <SourceColumnID>APELLIDO</SourceColumnID>
+        </Column>
+        <Column dwd:design-time-name="69a2364d-51a1-4b8f-be94-3dca26c106d3">
+          <ID>CANTIDAD DE HIJOS</ID>
+          <Name>CANTIDAD DE HIJOS</Name>
+          <SourceColumnID>CANTIDAD DE HIJOS</SourceColumnID>
+        </Column>
+        <Column dwd:design-time-name="a5ea1388-b625-4b81-bafd-2986a2aeccc9">
+          <ID>COMPRA RACK</ID>
+          <Name>COMPRA RACK</Name>
+          <SourceColumnID>COMPRA RACK</SourceColumnID>
+          <Usage>PredictOnly</Usage>
+        </Column>
+        <Column dwd:design-time-name="3b71db80-e542-49f3-bb75-9661ba46c754">
+          <ID>EDAD</ID>
+          <Name>EDAD</Name>
+          <SourceColumnID>EDAD</SourceColumnID>
+        </Column>
+        <Column dwd:design-time-name="8fe5501a-bd6f-4207-8e8a-f3c1a1173d6e">
+          <ID>ESTADO CIVIL</ID>
+          <Name>ESTADO CIVIL</Name>
+          <SourceColumnID>ESTADO CIVIL</SourceColumnID>
+        </Column>
+        <Column dwd:design-time-name="778bc8f6-7472-4395-a05d-ef01c65bd66d">
+          <ID>FIDELIDAD</ID>
+          <Name>FIDELIDAD</Name>
+          <SourceColumnID>FIDELIDAD</SourceColumnID>
+        </Column>
+        <Column dwd:design-time-name="38eedf32-2275-47a4-8d0b-16457643d586">
+          <ID>ID CLIENTE</ID>
+          <Name>ID CLIENTE</Name>
+          <SourceColumnID>ID CLIENTE</SourceColumnID>
+          <Usage>Key</Usage>
+        </Column>
+      </Columns>
+    </MiningModel>
+  </MiningModels>
+  <ddl100_100:HoldoutMaxPercent>30</ddl100_100:HoldoutMaxPercent>
+  <ddl100_100:HoldoutMaxCases>1000</ddl100_100:HoldoutMaxCases>
+</MiningStructure>
